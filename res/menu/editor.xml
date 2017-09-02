@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- ** Copyright (C) 2012 The CyanogenMod Project
+ ** Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  **
  ** Licensed under the Apache License, Version 2.0 (the "License");
  ** you may not use this file except in compliance with the License.
@@ -15,7 +16,7 @@
  ** limitations under the License.
 -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:filemanager="http://schemas.android.com/apk/res/com.cyanogenmod.filemanager">
+      xmlns:filemanager="http://schemas.android.com/apk/res/com.furydragons.filemanager">
 
   <item
     android:id="@+id/mnu_no_suggestions"

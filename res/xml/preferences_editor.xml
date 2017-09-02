@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -66,7 +67,7 @@
         android:title="@string/pref_syntax_highlight_color_scheme"
         android:summary="@string/pref_syntax_highlight_color_scheme_desc"
         android:dependency="cm_filemanager_editor_syntax_highlight"
-        android:fragment="com.cyanogenmod.filemanager.activities.preferences.EditorSHColorSchemePreferenceFragment" />
+        android:fragment="com.furydragons.filemanager.activities.preferences.EditorSHColorSchemePreferenceFragment" />
 
     </PreferenceCategory>
 

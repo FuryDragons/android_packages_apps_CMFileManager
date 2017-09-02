@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +15,13 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.commands.shell;
+package com.furydragons.filemanager.commands.shell;
 
 import android.test.suitebuilder.annotation.MediumTest;
 
-import com.cyanogenmod.filemanager.model.MountPoint;
-import com.cyanogenmod.filemanager.util.CommandHelper;
-import com.cyanogenmod.filemanager.util.MountPointHelper;
+import com.furydragons.filemanager.model.MountPoint;
+import com.furydragons.filemanager.util.CommandHelper;
+import com.furydragons.filemanager.util.MountPointHelper;
 
 /**
  * A class for testing the {@link MountCommand} command.

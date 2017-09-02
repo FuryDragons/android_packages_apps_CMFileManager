@@ -1,5 +1,9 @@
-LineageOS File Manager
+FuryDragons File Manager
 ========================
+
+Version 3.0.0
+-------------
+*Dragonify
 
 Version 2.0.0
 -------------

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2013 The CyanogenMod Project
+ * Copyright (C) 2013 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +15,17 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.ash.spi;
+package com.furydragons.filemanager.ash.spi;
 
 import android.text.Spannable;
 import android.text.style.ForegroundColorSpan;
 
-import com.cyanogenmod.filemanager.ash.HighlightColors;
-import com.cyanogenmod.filemanager.ash.ISyntaxHighlightResourcesResolver;
-import com.cyanogenmod.filemanager.ash.RegExpUtil;
-import com.cyanogenmod.filemanager.ash.SyntaxHighlightProcessor;
-import com.cyanogenmod.filemanager.ash.scanners.NewLineScanner;
-import com.cyanogenmod.filemanager.ash.scanners.NewLineScanner.NewLineScannerListener;
+import com.furydragons.filemanager.ash.HighlightColors;
+import com.furydragons.filemanager.ash.ISyntaxHighlightResourcesResolver;
+import com.furydragons.filemanager.ash.RegExpUtil;
+import com.furydragons.filemanager.ash.SyntaxHighlightProcessor;
+import com.furydragons.filemanager.ash.scanners.NewLineScanner;
+import com.furydragons.filemanager.ash.scanners.NewLineScanner.NewLineScannerListener;
 
 import java.io.File;
 import java.util.regex.Matcher;

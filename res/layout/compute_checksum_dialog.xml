@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -57,7 +58,7 @@
     android:layout_marginStart="@dimen/extra_large_margin"
     android:layout_marginEnd="@dimen/extra_large_margin">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.furydragons.filemanager.ui.widgets.ButtonItem
       android:id="@+id/bt_md5_clipboard"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -102,7 +103,7 @@
     android:layout_marginEnd="@dimen/extra_large_margin"
     android:layout_marginBottom="@dimen/extra_large_margin">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.furydragons.filemanager.ui.widgets.ButtonItem
       android:id="@+id/bt_sha1_clipboard"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +15,12 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.commands.shell;
+package com.furydragons.filemanager.commands.shell;
 
-import com.cyanogenmod.filemanager.FileManagerApplication;
-import com.cyanogenmod.filemanager.console.Console;
-import com.cyanogenmod.filemanager.console.ConsoleBuilder;
-import com.cyanogenmod.filemanager.console.shell.ShellConsole;
+import com.furydragons.filemanager.FileManagerApplication;
+import com.furydragons.filemanager.console.Console;
+import com.furydragons.filemanager.console.ConsoleBuilder;
+import com.furydragons.filemanager.console.shell.ShellConsole;
 
 /**
  * An abstract class that manages tests that needs a console.

@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -35,7 +36,7 @@ LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
 LOCAL_STATIC_JAVA_LIBRARIES += juniversalchardet
 LOCAL_STATIC_JAVA_LIBRARIES += uicommon
 
-LOCAL_PACKAGE_NAME := CMFileManager
+LOCAL_PACKAGE_NAME := DragonFileManager
 LOCAL_CERTIFICATE := platform
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

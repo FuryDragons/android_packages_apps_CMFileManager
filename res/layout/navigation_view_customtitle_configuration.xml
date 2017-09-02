@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,7 +29,7 @@
     android:gravity="center_horizontal"
     android:orientation="horizontal" >
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.furydragons.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_sort_mode"
       android:layout_width="@dimen/default_buttom_width"
       android:layout_height="match_parent"
@@ -36,7 +37,7 @@
       android:onClick="onActionBarItemClick"
       android:src="@drawable/ic_material_light_sort_alphabetically" />
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.furydragons.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_layout_mode"
       android:layout_width="@dimen/default_buttom_width"
       android:layout_height="match_parent"
@@ -44,7 +45,7 @@
       android:onClick="onActionBarItemClick"
       android:src="@drawable/ic_material_light_layout" />
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.furydragons.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_view_options"
       android:layout_width="@dimen/default_buttom_width"
       android:layout_height="match_parent"
@@ -53,7 +54,7 @@
       android:src="@drawable/ic_material_light_view" />
   </LinearLayout>
 
-  <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+  <com.furydragons.filemanager.ui.widgets.ButtonItem
     android:id="@+id/ab_close"
     android:layout_width="@dimen/default_buttom_width"
     android:layout_height="match_parent"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,7 +30,7 @@
   configure special values for each device. Use overlay building folder on device tree
   for overlay this values
 -->
-<CommandList xmlns="http://schemas.android.com/apk/res/com.cyanogenmod.filemanager">
+<CommandList xmlns="http://schemas.android.com/apk/res/com.furydragons.filemanager">
   <!-- Start code (append to commands; for retrieve the exit code) -->
   <startcode commandId="startcode" commandPath="/system/bin/echo -n %1$s0%2$s ; " />
   <!-- Exit code (append to commands; for retrieve the exit code) -->

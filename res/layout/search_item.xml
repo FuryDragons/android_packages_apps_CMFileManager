@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@
   android:paddingStart="@dimen/extra_margin"
   android:paddingEnd="@dimen/extra_margin">
 
-  <com.cyanogenmod.filemanager.ui.widgets.FixedSizeImageView
+  <com.furydragons.filemanager.ui.widgets.FixedSizeImageView
     android:id="@+id/search_item_icon"
     android:layout_width="@dimen/default_row_height"
     android:layout_height="@dimen/default_row_height"
@@ -58,7 +59,7 @@
       android:layout_marginStart="@dimen/default_margin"
       android:orientation="horizontal" >
 
-      <com.cyanogenmod.filemanager.ui.widgets.RelevanceView
+      <com.furydragons.filemanager.ui.widgets.RelevanceView
         android:id="@+id/search_item_relevance"
         android:layout_width="@dimen/relevance_item_width"
         android:layout_height="@dimen/relevance_item_height"

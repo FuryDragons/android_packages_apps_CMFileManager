@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2013 The CyanogenMod Project
+ * Copyright (C) 2013 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,11 +15,11 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.ash.scanners;
+package com.furydragons.filemanager.ash.scanners;
 
 import java.util.regex.Matcher;
 
-import com.cyanogenmod.filemanager.ash.RegExpUtil;
+import com.furydragons.filemanager.ash.RegExpUtil;
 
 /**
  * An scanner to process an input, reporting every text into new lines.

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +15,15 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.commands.shell;
+package com.furydragons.filemanager.commands.shell;
 
 import android.os.Environment;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.cyanogenmod.filemanager.console.InsufficientPermissionsException;
-import com.cyanogenmod.filemanager.model.FileSystemObject;
-import com.cyanogenmod.filemanager.model.Symlink;
-import com.cyanogenmod.filemanager.util.CommandHelper;
+import com.furydragons.filemanager.console.InsufficientPermissionsException;
+import com.furydragons.filemanager.model.FileSystemObject;
+import com.furydragons.filemanager.model.Symlink;
+import com.furydragons.filemanager.util.CommandHelper;
 
 /**
  * A class for testing the {@link LinkCommandTest} command.

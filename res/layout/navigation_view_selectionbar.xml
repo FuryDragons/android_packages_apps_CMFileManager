@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,7 +20,7 @@
   android:layout_height="match_parent"
   android:orientation="horizontal" >
 
-  <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+  <com.furydragons.filemanager.ui.widgets.ButtonItem
     android:id="@+id/ab_selection_done"
     android:layout_width="@dimen/small_buttom_width"
     android:layout_height="@dimen/small_buttom_width"

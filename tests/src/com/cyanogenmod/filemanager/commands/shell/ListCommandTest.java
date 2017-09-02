@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +15,17 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.commands.shell;
+package com.furydragons.filemanager.commands.shell;
 
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.cyanogenmod.filemanager.model.Directory;
-import com.cyanogenmod.filemanager.model.FileSystemObject;
-import com.cyanogenmod.filemanager.model.RegularFile;
-import com.cyanogenmod.filemanager.model.Symlink;
-import com.cyanogenmod.filemanager.util.CommandHelper;
-import com.cyanogenmod.filemanager.util.FileHelper;
+import com.furydragons.filemanager.model.Directory;
+import com.furydragons.filemanager.model.FileSystemObject;
+import com.furydragons.filemanager.model.RegularFile;
+import com.furydragons.filemanager.model.Symlink;
+import com.furydragons.filemanager.util.CommandHelper;
+import com.furydragons.filemanager.util.FileHelper;
 
 import java.util.List;
 

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
+ * Copyright (C) 2012 The CyanogenMod Project 
+	               2017 The FuryDragons Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.filemanager.commands.shell;
+package com.furydragons.filemanager.commands.shell;
 
 import android.os.Environment;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import com.cyanogenmod.filemanager.commands.AsyncResultExecutable;
-import com.cyanogenmod.filemanager.commands.ConcurrentAsyncResultListener;
-import com.cyanogenmod.filemanager.model.FileSystemObject;
-import com.cyanogenmod.filemanager.model.Query;
-import com.cyanogenmod.filemanager.util.CommandHelper;
+import com.furydragons.filemanager.commands.AsyncResultExecutable;
+import com.furydragons.filemanager.commands.ConcurrentAsyncResultListener;
+import com.furydragons.filemanager.model.FileSystemObject;
+import com.furydragons.filemanager.model.Query;
+import com.furydragons.filemanager.util.CommandHelper;
 
 import java.io.File;
 import java.util.ArrayList;
