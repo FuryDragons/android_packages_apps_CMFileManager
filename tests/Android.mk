@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project 
-	               2017 The FuryDragons Project
+#               2017 The FuryDragons Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,13 +26,13 @@ LOCAL_JAVA_LIBRARIES := android.test.runner
 # Include all test java files.
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-# Notice that we don't have to include the src files of CMFileManager because, by
-# running the tests using an instrumentation targeting CMFileManager, we
+# Notice that we don't have to include the src files of DragonFileManager because, by
+# running the tests using an instrumentation targeting DragonFileManager, we
 # automatically get all of its classes loaded into our environment.
 
-LOCAL_PACKAGE_NAME := CMFileManagerTests
+LOCAL_PACKAGE_NAME := DragonFileManagerTests
 
-LOCAL_INSTRUMENTATION_FOR := CMFileManager
+LOCAL_INSTRUMENTATION_FOR := DragonFileManager
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
